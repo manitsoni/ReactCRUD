@@ -1,0 +1,39 @@
+.container h2 {
+    margin-left: 15px;
+}
+
+.btn {
+    margin-left: 90%;
+    padding: 15px;
+    color: snow;
+    border: snow;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+.table tbody {
+    text-align: center;
+}
+
+.table tr th {
+    padding: 15px;
+    background-color: #000;
+    color: snow;
+}
+
+.table tr td {
+    padding: 10px;
+}
+
+.table tr:hover {
+    background-color: #eee;
+    transition: 150ms;
+}
